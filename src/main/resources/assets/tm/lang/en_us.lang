@@ -1,2 +1,8 @@
+
+//Items
 item.ruby.name=Ruby
 item.python.name=Python
+
+//Blocks
+tile.ruby_block.name=Ruby Block
+tile.python_block.name=Python Block
