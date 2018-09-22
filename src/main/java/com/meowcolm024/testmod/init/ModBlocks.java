@@ -15,4 +15,3 @@ public class ModBlocks {
     public static final Block PYTHON_BLOCK = new BlockBase("python_block", Material.IRON);
 
 }
-9
