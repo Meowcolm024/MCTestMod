@@ -23,7 +23,7 @@ public class ModItems {
     public static final ItemSword RUBY_SWORD = new ToolSword("ruby_sword", MATERIAL_RUBY);
     public static final ItemSpade RUBY_SHOVEL = new ToolSpade("ruby_shovel", MATERIAL_RUBY);
     public static final ItemPickaxe RUBY_PICKAXE = new ToolPickaxe("ruby_pickaxe", MATERIAL_RUBY);
-    public static final ItemAxe RUBY_AXE = new ToolAxe("ruby_axe",MATERIAL_RUBY);
-    public static final ItemHoe RUBY_HOE = new ToolHoe("ruby_hoe",MATERIAL_RUBY);
+    public static final ItemAxe RUBY_AXE = new ToolAxe("ruby_axe", MATERIAL_RUBY);
+    public static final ItemHoe RUBY_HOE = new ToolHoe("ruby_hoe", MATERIAL_RUBY);
 
 }

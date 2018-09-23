@@ -2,6 +2,8 @@
 //Items
 item.ruby.name=Ruby
 item.python.name=Python
+
+//Tools
 item.ruby_sword.name=Ruby Sword
 item.ruby_shovel.name=Ruby Shovel
 item.ruby_pickaxe.name=Ruby Pickaxe
