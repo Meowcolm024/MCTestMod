@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    " D ",
+    "DDG",
+    " G "
+  ],
+
+  "key":
+  {
+    "D":
+    {
+      "item": "minecraft:diamond"
+    },
+    "G":
+    {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+
+  "result":
+  {
+    "item": "tm:python",
+    "count": 1
+  }
+}
