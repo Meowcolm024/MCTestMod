@@ -13,3 +13,4 @@ item.ruby_hoe.name=Ruby Hoe
 //Blocks
 tile.ruby_block.name=Ruby Block
 tile.python_block.name=Python Block
+tile.python_lamp.name=Python Lamp

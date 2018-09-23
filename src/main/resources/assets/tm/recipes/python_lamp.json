@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "item": "minecraft:glowstone"
+    },
+
+    {
+      "item": "tm:python"
+    },
+
+    {
+      "item": "tm:python"
+    },
+
+    {
+      "item": "tm:python"
+    }
+
+  ],
+
+  "result":
+  {
+    "item": "tm:python_lamp",
+    "count": 1
+  }
+}
