@@ -1,5 +1,6 @@
 package com.meowcolm024.testmod;
 
+import com.meowcolm024.testmod.init.ModRecipes;
 import com.meowcolm024.testmod.proxy.CommonProxy;
 import com.meowcolm024.testmod.util.Reference;
 import net.minecraftforge.fml.common.Mod;
@@ -27,6 +28,7 @@ public class Main {
     @EventHandler
     public static void init(FMLInitializationEvent event) {
 
+        ModRecipes.init();
     }
 
     @EventHandler

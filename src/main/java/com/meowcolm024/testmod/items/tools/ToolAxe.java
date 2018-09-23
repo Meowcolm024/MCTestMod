@@ -1,18 +1,19 @@
-package com.meowcolm024.testmod.items;
+package com.meowcolm024.testmod.items.tools;
 
 import com.meowcolm024.testmod.Main;
 import com.meowcolm024.testmod.init.ModItems;
 import com.meowcolm024.testmod.util.IHasModel;
 import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.item.Item;
+import net.minecraft.item.ItemAxe;
 
-public class ItemBase extends Item implements IHasModel {
+public class ToolAxe extends ItemAxe implements IHasModel {
 
-    public ItemBase(String name) {
+    public ToolAxe(String name, ToolMaterial material) {
+        super(material, 6.0F, -3.2F);
 
         setUnlocalizedName(name);
         setRegistryName(name);
-        setCreativeTab(CreativeTabs.MATERIALS);
+        setCreativeTab(CreativeTabs.TOOLS);
 
         ModItems.ITEMS.add(this);
     }
@@ -21,6 +22,5 @@ public class ItemBase extends Item implements IHasModel {
     public void registerModels() {
 
         Main.proxy.registerItemRenderer(this, 0, "inventory");
-
     }
 }
