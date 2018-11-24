@@ -1,9 +1,13 @@
 package com.meowcolm024.testmod.init;
 
 import com.meowcolm024.testmod.items.ItemBase;
+import com.meowcolm024.testmod.items.food.FoodBase;
+import com.meowcolm024.testmod.items.food.FoodEffectBase;
 import com.meowcolm024.testmod.items.tools.*;
 import com.meowcolm024.testmod.moddedsrc.ModBow;
+import net.minecraft.init.MobEffects;
 import net.minecraft.item.*;
+import net.minecraft.potion.PotionEffect;
 import net.minecraftforge.common.util.EnumHelper;
 
 import java.util.ArrayList;
@@ -28,6 +32,10 @@ public class ModItems {
     public static final ItemAxe RUBY_AXE = new ToolAxe("ruby_axe", MATERIAL_RUBY);
     public static final ItemHoe RUBY_HOE = new ToolHoe("ruby_hoe", MATERIAL_RUBY);
     public static final ModBow RUBY_BOW = new ToolBow("ruby_bow");
-    public static final ItemSword EXCALIBUR = new ToolSword("excalibur", MATERIAL_EXCALIBUR);
+    public static final ItemSword EXCALIBUR = new Excalibur("excalibur", MATERIAL_EXCALIBUR);
+
+    // Food
+    public static final ItemFood EVIL_APPLE = new FoodBase("evil_apple", 8, 2.8f, false);
+    public static final ItemFood STRANGE_APPLE = new FoodEffectBase("strange_apple", 10, 3.4f, false, new PotionEffect(MobEffects.HUNGER, (60*20), 1, false, true));
 
 }

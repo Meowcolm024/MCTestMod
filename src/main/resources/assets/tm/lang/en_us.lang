@@ -16,3 +16,7 @@ item.excalibur.name=Excalibur
 tile.ruby_block.name=Ruby Block
 tile.python_block.name=Python Block
 tile.python_lamp.name=Python Lamp
+
+//Food
+item.evil_apple.name=Evil Apple
+item.strange_apple.name=Strange Apple
