@@ -23,7 +23,7 @@ public class ModItems {
 
     // Items
     public static final Item RUBY = new ItemBase("ruby");
-    public static final Item PYTHON = new ItemBase("python");
+    public static final Item PYTHON = new Python("python");
 
     // Tools
     public static final ItemSword RUBY_SWORD = new ToolSword("ruby_sword", MATERIAL_RUBY);
@@ -37,5 +37,6 @@ public class ModItems {
     // Food
     public static final ItemFood EVIL_APPLE = new FoodBase("evil_apple", 8, 2.8f, false);
     public static final ItemFood STRANGE_APPLE = new FoodEffectBase("strange_apple", 10, 3.4f, false, new PotionEffect(MobEffects.HUNGER, (60*20), 1, false, true));
+    public static final ItemFood LIFT_BANANA = new FoodEffectBase("lift_banana", 6, 1.8f, false, new PotionEffect(MobEffects.LEVITATION, (120*20), 1, false, true));
 
 }
